@@ -1,0 +1,22 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    margin: 30px;
+}
+
+/*when we write max-width properties we have to write it in descending order*/
+/*when we write min-width properties we have to write it in ascending order*/
+@media(max-width:900px)
+{
+    .box{
+        background-color: lightgreen;
+    }
+}
+
+@media(max-width:600px)
+{
+    .box{
+        background-color: purple;
+    }
+}

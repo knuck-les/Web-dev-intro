@@ -11,3 +11,11 @@ p{
     font-style: italic;
     
 }
+
+input[disabled]{
+     width: 300px;
+}
+
+.pa{
+    background-color: green;
+}
